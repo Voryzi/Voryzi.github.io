@@ -164,7 +164,7 @@ main{
     }
 }
 
-/*
+
 .about_me{
     text-align: center;
     height: 720px;
@@ -185,13 +185,12 @@ main{
     height: 220px;
     width: 220px;
     background:  url("../img/boy_about.png") 50% 45%/ 200px auto no-repeat;
-    transform: rotate3d(1, 1, 1, 0deg);
     perspective: 400px;
     transition: all 0.2s ease 0s;
 }
 .boy_about:hover{
     box-shadow: 0px 0px 10px #555;
-    transform: rotate3d(1,1,0.5, 20deg) scale(1.2);
+    transform: rotate3d(1,1,0.5, 10deg) scale(1.2);
 }
 
 
@@ -229,10 +228,25 @@ main{
     background: none;
     border-radius: 5px;
     font-size: 15px;
+    font-weight: 500;
     color: #6d7682;
-    background: url("../img/ico_instal.jpg") 5% 50%/ 20px 20px no-repeat;
-    padding-left: 25px;
+    background: url("../img/ico_install.png") 5% 50%/ 15px 15px no-repeat;
+    padding-left: 20px;
     margin: 20px;
+    transition: all 0.2s ease 0s;
+}
+
+.title_container2 input:hover{
+   
+    color: #fff;
+    background: url("../img/ico_install2.png") 5% 50%/ 15px 15px no-repeat, #344051;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #555;
+}
+
+.title_container2 input:active{
+    box-shadow: none;
+    transform: scale(1);
 }
 
 .what_can{
@@ -262,7 +276,15 @@ main{
     margin: 100px 14px 0px 14px;
     float: left;
     width: 210px;
-    height: 160px;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+    perspective: 400px;
+}
+.func li:hover{
+    box-shadow: 0px 0px 10px #555;
+    transform: rotate3d(1,1,1, 10deg) scale(1.2);
 }
 
 .func h3{
