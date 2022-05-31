@@ -3,6 +3,7 @@ body{
 }
 
 nav{
+    z-index: 1;
     width: 100%;
     height: 60px;
     background: #344051;
@@ -253,7 +254,7 @@ main{
     text-align: center;
     width: 100%;
     height: 525px;
-    background: url("../img/line.jpg") 50% 162px/ auto auto no-repeat, url("../img/fon_what_can.jpg") 100% 100% no-repeat;
+    background: url("../img/line.jpg") 50% 162px/ auto auto no-repeat, url("../img/fon_what_can.jpg") 50% 50% no-repeat;
     color: #3f495a;
 }
 
@@ -300,6 +301,248 @@ main{
     color: #3f495a;
     font-size: 18px;
 }
+
+.casez{
+    height: 1060px;
+    background: #fff;
+    text-align: center;
+    background: url("../img/line.jpg") 50% 134px/ auto auto no-repeat;
+    color: #3f495a;
+}
+
+.title_container4 h2{
+    padding: 85px 0px 20px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title_container4 h3{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title_container4 p{
+    padding: 2px 0px 0px 0px;
+    font-size: 20px;
+}
+
+
+.case{
+    width: 1200px;
+    height: 800px;
+    background: none;
+    margin: 10px auto 20px auto;
+}
+.photo_case{
+    display: inline-block
+    width: 800px;
+    height: 600px;
+    background: url("../img/site.jpg") no-repeat;
+}
+.cli_web{
+    text-align: left;
+    margin: 20px auto 0px 10px;
+    width: 210px;
+    height: 180px;
+    float: left;
+}
+
+.name_project{
+    text-align: left;
+    margin: 20px 10px 0px auto;
+    width: 850px;
+    height: 100px;
+}
+
+.cli_web a p{
+    line-height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background: #63b5ae;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    transform: scale(1);
+    transition: all 0.2s ease 0s;
+}
+
+.case1{
+    transform: translateX(0px);
+    background: none;
+    
+}
+.case2{
+    transform: translateX(2000px);
+    background: #f11;
+}
+
+.cli_web a p:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #555;
+}
+
+.cli_web a p:active{
+    box-shadow: none;
+    transform: scale(1);
+}
+
+.title_container4 input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 15px;
+    padding: 0px 16px;
+    margin: 45px 14px 0px 14px;
+    transition: all 0.2s ease 0s;
+}
+
+.price{
+    height: 800px;
+    background: #fff;
+    text-align: center;
+    background: url("../img/line.jpg") 50% 134px/ auto auto no-repeat;
+    color: #3f495a;
+}
+
+.title_container5{
+    margin: 0px auto 0px auto;
+    width: 890px;
+    
+}
+
+.title_container5 h2{
+    padding: 85px 0px 30px 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title_container5 h3{
+    margin: 10px 0px 5px 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.type_site {
+    margin-top: 30px;
+    height: 100px;
+    text-align: left;
+}
+
+.design {
+    margin-top: 30px;
+    height: 100px;
+    text-align: left;
+}
+
+.adaptiv {
+    margin-top: 30px;
+    height: 100px;
+    text-align: left;
+}
+
+select{
+    color: #737373;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 0px 0px 0px 30px;
+    width: 100%;
+    height: 68px;
+    background: #eee;
+}
+
+.line_itog{
+    margin: 15px auto 20px auto;
+    width: 6px;
+    height: 4px;
+    background: #ddd;
+    border-radius: 3px;
+    transform: scaleX(150);
+}
+
+.itog_price_txt{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+
+.itog_price_count{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.statistic{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background: url("../img/line.jpg") 50% 162px/ auto auto no-repeat, url("../img/fon_statistic.jpg") 50% 50% no-repeat;
+    color: #3f495a;
+}
+
+.title_container6{
+    display: inline-block;
+}
+
+.title_container6 h2{
+    padding-top: 108px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.stat{
+    
+    float: left;
+}
+
+.stat li{
+    margin: 100px 14px 0px 14px;
+    float: left;
+    width: 230px;
+    height: auto;
+    padding: 15px;
+    border-radius: 15px;
+    transition: all 0.2s ease 0s;
+    perspective: 400px;
+}
+.stat li:hover{
+    box-shadow: 0px 0px 10px #555;
+    transform: rotate3d(1,1,1, 10deg) scale(1.2);
+}
+
+.stat h3{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #3f495a;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.stat p{
+    
+    color: #3f495a;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+
 
 
 
